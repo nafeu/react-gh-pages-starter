@@ -37,7 +37,7 @@ const App = () => {
   ]
 
   return (
-    <div className="app">
+    <div id="app" className="w-1/2">
       <Layout section="top">
         <Logo />
         <Navigation pages={pages} />

@@ -11,7 +11,7 @@ const Logo = () => {
   }
 
   return (
-    <div onClick={handleClick} className="logo">[YOUR_APP_NAME]</div>
+    <div onClick={handleClick} className="cursor-pointer">[YOUR_APP_NAME]</div>
   );
 }
 

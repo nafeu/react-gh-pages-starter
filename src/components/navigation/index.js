@@ -8,7 +8,7 @@ const Navigation = ({ pages }) => (
       <NavLink
         key={name}
         className={({ isActive, isPending }) => {
-          return isActive ? "navigation-active" : isPending ? "navigation-pending" : "";
+          return `${isActive ? "text-blue-900" : isPending ? "text-yellow-900" : ""} cursor-pointer`;
         }}
         to={path}
       >
